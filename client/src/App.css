@@ -1,0 +1,89 @@
+.card{
+  width: 250px;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+label{
+  width: max-content;
+  color: #CD412B;
+  font-size: 13px;
+  border-bottom: 1px solid #CD412B;
+  margin: 3px 0px;
+}
+
+.desc{
+  font-size: 14px;
+}
+
+.star{
+  color: gold;
+}
+
+.username{
+  font-size: 14px;
+}
+
+.date{
+  font-size: 12px;
+}
+
+form{
+  height: 250px;
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+input,textarea{
+  border:none;
+  border-bottom: 1px solid grey;
+}
+
+input::placeholder, textarea::placeholder{
+  font-size: 12px;
+  color: rgb(170,170,170);
+}
+
+.submitButton{
+  border: none;
+  padding: 5px;
+  border-radius: 5px;
+  color: #E4DAD1;
+  background-color: #CD412B;
+  cursor: pointer;
+}
+
+.submitButton:hover{
+  background-color: #C26D33;
+}
+
+.button{
+   border: none;
+   padding: 5px;
+   border-radius: 5px;
+   color: white;
+   cursor: pointer;
+}
+
+.logout{
+  background-color: #C26D33;
+}
+
+.login {
+  background-color: teal;
+  margin-right: 8px;
+}
+
+.register {
+  background-color: slateblue;
+}
+
+.buttons,.logout{
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
