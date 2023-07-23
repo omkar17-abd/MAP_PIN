@@ -1,4 +1,4 @@
-# MAP_PIN
+### `MAP_PIN`
 
 The MAP_PIN project is a comprehensive web application developed using the MERN (MongoDB, Express.js, React.js, Node.js) stack. The primary goal of this application is to provide users with a platform where they can easily pin any location of their choice on a map and write detailed reviews about those locations, including descriptions, ratings, and titles.
 
@@ -22,7 +22,7 @@ The project aims to provide an efficient and interactive experience for users, e
 ## • Login
 ![image](https://github.com/omkar17-abd/MAP_PIN/assets/90829665/75205c9a-d288-47b1-a1ce-42857610d3e9)
 
-## • The red pins represent locations pinned by the current user, while the blue pins indicate locations pinned by others.
+### • The red pins represent locations pinned by the current user, while the blue pins indicate locations pinned by others.
 ![image](https://github.com/omkar17-abd/MAP_PIN/assets/90829665/02429e11-14a1-4914-b404-5b86908ced40)
 
 ## • Reviews
@@ -31,8 +31,11 @@ The project aims to provide an efficient and interactive experience for users, e
 ## Technologies Used
 
 • Frontend : React.JS 
+
 • Backend : Node.JS,Express
+
 • Database : MongoDB
+
 
 
 
